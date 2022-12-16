@@ -9,13 +9,13 @@ const Producto = dataBase.define('productos', {
         type: DataTypes.STRING
     },
     cantidad:{
-        type: DataTypes.INET
+        type: DataTypes.STRING
     },
     precio:{
-        type: DataTypes.INET
+        type: DataTypes.STRING
     },
     referencia:{
-        type: DataTypes.INET
+        type: DataTypes.STRING
     }
 
 })

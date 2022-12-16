@@ -5,7 +5,7 @@ import { crearCliente, mostrarCliente, mostrarClientes } from '../controllers/Co
 const clienteRouter = express.Router();
 
 clienteRouter.post('/', crearCliente)
-clienteRouter.get('/', mostrarCliente);
+clienteRouter.get('/', mostrarClientes);
 clienteRouter.get('/:id', mostrarCliente);
 
 export default clienteRouter;

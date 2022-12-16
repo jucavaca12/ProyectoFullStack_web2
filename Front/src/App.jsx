@@ -27,7 +27,7 @@ const routes = createBrowserRouter([
 function App() {
 
   return (
-    <section className="bg bg-info">
+    <section className="">
       <RouterProvider router = {routes}/>
     </section>
   )

@@ -1,5 +1,7 @@
 .Header{
     background-color: rgba(68, 233, 109, 0.533);
-    height: 10vh;
+    height: 11vh;
     width: 100vw;
+    border-top-right-radius: 45px ;
+    border-bottom-left-radius :45px ;
 }

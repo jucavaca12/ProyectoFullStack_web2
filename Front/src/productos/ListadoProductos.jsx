@@ -3,7 +3,7 @@ import Header from "../Helpers/Header.jsx";
 import axios from 'axios';
 import { Link } from "react-router-dom";
 
-const apiProductos = "http://localhost:5174/productos"
+const apiProductos = "http://localhost:3100/productos"
 
 const ListadoProductos =() =>{
 
