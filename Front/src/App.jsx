@@ -1,13 +1,14 @@
 import './App.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import ListadoProductos from './productos/ListadoProductos'
-import ListadoClientes from './clientes/ListadoClientes'
-import ListadoProveedores from './proveedores/ListadoProveedores'
+import ListadoProductos from './productos/ListadoProductos.jsx'
+import ListadoClientes from './clientes/ListadoClientes.jsx'
+import ListadoProveedores from './proveedores/ListadoProveedores.jsx'
+import Home from './Layouts/Home'
 
 const routes = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Este es el home</h1>
+    element: <Home />
   },
   {
     path: '/productos',
