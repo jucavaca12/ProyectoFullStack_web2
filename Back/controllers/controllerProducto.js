@@ -45,7 +45,7 @@ const mostrarProducto = async (req, res)=>{
 
 
 export {
-    crearCliente, 
-    mostrarClientes, 
-    mostrarCliente
+    crearProducto,
+    mostrarProducto,
+    mostrarProductos
 }
